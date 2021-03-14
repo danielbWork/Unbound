@@ -1,0 +1,32 @@
+{
+  "secrets": [
+    {
+      "name": "My bank account password",
+      "allowExport": true,
+      "text": "thisIsmy-passw0r!d",
+      "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+      "createdAt": "2021-03-12T10:33:43.867Z"
+    },
+    {
+      "name": "My bank account password 2 ",
+      "allowExport": true,
+      "text": "thisIsmy-passw0r!d1",
+      "id": "d290f1sd-34rw-4b01-10s6-d243348f0851",
+      "createdAt": "2021-03-12T10:33:43.867Z"
+    },
+    {
+      "name": "aa",
+      "text": "asd",
+      "allowExport": true,
+      "id": "a89f420f-8b4d-4765-9111-86f41eae12f7",
+      "createdAt": "2021-03-13T15:24:44.553Z"
+    },
+    {
+      "name": "asd",
+      "text": "asd",
+      "allowExport": true,
+      "id": "160dd8bc-c801-49f4-a17a-15ad90821ec5",
+      "createdAt": "2021-03-13T15:25:00.873Z"
+    }
+  ]
+}

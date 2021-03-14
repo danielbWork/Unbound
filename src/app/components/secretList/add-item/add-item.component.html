@@ -1,0 +1,37 @@
+<form class="form" (ngSubmit)="onSubmit()" #myform="ngForm">
+
+  <div>
+    Secret Title:
+
+    <mat-form-field appearance="standard">
+      <mat-label>Secret Name</mat-label>
+      <input matInput type="text" name="name" [(ngModel)]="name" (change)="matcher.usedName = false"
+             [errorStateMatcher]="matcher"
+             placeholder="name"
+             required>
+      <mat-error>{{getErrorText()}}</mat-error>
+    </mat-form-field>
+
+  </div>
+
+  <div>
+    Secret:
+    <mat-form-field appearance="standard">
+      <mat-label>Tell me your secret</mat-label>
+      <input matInput type="text" name="secret" [(ngModel)]="secret" required>
+      <mat-error>Secret can't be empty</mat-error>
+    </mat-form-field>
+
+  </div>
+
+  <div>
+    Allow Export:
+    <mat-checkbox name="allowExport"
+                  [(ngModel)]="allowExport"></mat-checkbox>
+
+  </div>
+
+  <button mat-raised-button color="primary" type="submit" [disabled]="myform.invalid">Add Secret</button>
+
+</form>
+

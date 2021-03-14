@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  margin-top: 12px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.form div {
+  flex: 8;
+  align-self: center;
+  text-align: left;
+}
+
+button {
+  flex: 2;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+
+  white-space: pre-wrap;
+}
+
+mat-form-field {
+  align-self: center;
+  margin-left: 12px;
+}
+
+mat-checkbox {
+  align-self: center;
+  margin-left: 12px;
+}
+
